@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace How_old_are_you_in_months
+namespace Activity_2
 {
     internal class Program
     {
         static void Main(string[] args)
         { 
             //Ask user to input age
-            Console.Write("Enter your age(1-120): ");
+            Console.Write("Enter age(1-120): ");
             int age = int.Parse(Console.ReadLine());
 
             // Convert age to months
@@ -31,3 +31,4 @@ namespace How_old_are_you_in_months
         }
     }
 }
+
